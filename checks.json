@@ -1,0 +1,9 @@
+[
+  {"args": ["http_age_explain.py", "examples/fresh.json"], "exit": 0},
+  {"args": ["http_age_explain.py", "examples/stale.json"], "exit": 1},
+  {"args": ["http_age_explain.py", "examples/validation-required.json"], "exit": 1},
+  {"args": ["http_age_explain.py", "examples/shared-private.json"], "exit": 1},
+  {"args": ["http_age_explain.py", "examples/expires.json"], "exit": 0},
+  {"args": ["http_age_explain.py", "examples/unknown.json"], "exit": 1},
+  {"args": ["http_age_explain.py", "examples/unsupported-qualified.json"], "exit": 2}
+]

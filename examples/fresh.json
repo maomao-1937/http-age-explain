@@ -1,0 +1,11 @@
+{
+  "request_time": 98,
+  "response_time": 100,
+  "now": 105,
+  "cache": "shared",
+  "response_headers": [
+    ["Date", "Thu, 01 Jan 1970 00:01:30 GMT"],
+    ["Age", "3"],
+    ["Cache-Control", "max-age=100"]
+  ]
+}
